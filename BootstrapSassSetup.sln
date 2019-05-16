@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootstrapSassSetup_AspNetCoreWebApp", "BootstrapSassSetup_AspNetCoreWebApp\BootstrapSassSetup_AspNetCoreWebApp.csproj", "{D8854C8E-EB3D-4285-A4FD-59F5D47A27A3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootstrapSassSetup_AspNetWebApp", "BootstrapSassSetup_AspNetWebApp\BootstrapSassSetup_AspNetWebApp.csproj", "{AF49B28C-A4C4-4E69-B220-EE1652C0A1F0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{D8854C8E-EB3D-4285-A4FD-59F5D47A27A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8854C8E-EB3D-4285-A4FD-59F5D47A27A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8854C8E-EB3D-4285-A4FD-59F5D47A27A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF49B28C-A4C4-4E69-B220-EE1652C0A1F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF49B28C-A4C4-4E69-B220-EE1652C0A1F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF49B28C-A4C4-4E69-B220-EE1652C0A1F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF49B28C-A4C4-4E69-B220-EE1652C0A1F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
