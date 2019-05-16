@@ -234,6 +234,12 @@
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />
     <Content Include="Areas\HelpPage\Views\_ViewStart.cshtml" />
+    <Content Include="Content\bootstrap.custom.css">
+      <DependentUpon>bootstrap.custom.scss</DependentUpon>
+    </Content>
+    <Content Include="Content\bootstrap.custom.min.css">
+      <DependentUpon>bootstrap.custom.css</DependentUpon>
+    </Content>
     <Content Include="Content\Site.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -354,6 +360,11 @@
     <Content Include="lib\bootstrap\scss\_type.scss" />
     <Content Include="lib\bootstrap\scss\_utilities.scss" />
     <Content Include="lib\bootstrap\scss\_variables.scss" />
+    <Content Include="Content\bootstrap.custom.scss" />
+    <None Include="compilerconfig.json" />
+    <None Include="compilerconfig.json.defaults">
+      <DependentUpon>compilerconfig.json</DependentUpon>
+    </None>
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
     <Content Include="Scripts\jquery-3.3.1.min.js" />
